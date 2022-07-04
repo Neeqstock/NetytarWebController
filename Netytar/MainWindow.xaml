@@ -1,0 +1,51 @@
+﻿<Window x:Class="NetytarWebDriver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Netytar Web Driver" Height="170" Width="200" Loaded="Window_Loaded">
+    
+    <Grid Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <Label Content="Breah value: " Style="{StaticResource LabelsText}"/>
+            <Label x:Name="lbl_BreathValue" Content="-" Style="{StaticResource LabelsText}"/>
+            <Button Content="Test" Click="Button_Click_1"/>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Label Content="Note: " Style="{StaticResource LabelsText}"/>
+            <Label x:Name="lbl_NoteOnOff" Content="Off" Style="{StaticResource LabelsText}"/>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
+            <Label Content="Gaze lock: " Style="{StaticResource LabelsText}"/>
+            <Label x:Name="lbl_GazeLock" Content="Off" Style="{StaticResource LabelsText}"/>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="3" Orientation="Horizontal">
+            <Label Content="Midi Device: " Style="{StaticResource LabelsText}"/>
+            <Label x:Name="lbl_MidiDevice" Content="0" Style="{StaticResource LabelsText}"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="4" Orientation="Horizontal">
+            <Label Content="COM port: " Style="{StaticResource LabelsText}"/>
+            <Label x:Name="lbl_ComPort" Content="0" Style="{StaticResource LabelsText}"/>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="5" Orientation="Horizontal">
+            <Label Content="Keys: L to lock, U to unlock" Style="{StaticResource LabelsText}" FontStyle="Italic" Foreground="LightGray"/>
+        </StackPanel>
+        
+    </Grid>
+    
+</Window>

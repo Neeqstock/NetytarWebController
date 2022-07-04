@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5d8787ab-3ed2-4181-98ec-658814b19ae9": {
+      "ProjectGuid": "5d8787ab-3ed2-4181-98ec-658814b19ae9",
+      "DisplayName": "NeeqDMIs",
+      "ColorIndex": 0
+    },
+    "32b8450b-a336-467d-b4a0-c22af3bf79a1": {
+      "ProjectGuid": "32b8450b-a336-467d-b4a0-c22af3bf79a1",
+      "DisplayName": "Netytar",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
