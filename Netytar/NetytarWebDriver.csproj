@@ -124,6 +124,7 @@
     <Compile Include="Behaviors\SBIgnorance.cs" />
     <Compile Include="Behaviors\SBReceiveBreathSensor.cs" />
     <Compile Include="Behaviors\SBReceiveSensorString.cs" />
+    <Compile Include="LoggingService.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
